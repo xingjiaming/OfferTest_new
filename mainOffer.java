@@ -11,5 +11,6 @@ public class mainOffer {
         System.out.println(calendar.getTimeInMillis());
         calendar.add(Calendar.DAY_OF_YEAR, -2);
         System.out.println(calendar.getTimeInMillis());
+        
     }
 }
