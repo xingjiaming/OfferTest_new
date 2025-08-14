@@ -1,11 +1,8 @@
-package Bean;
+package Bean
 
-public class RandomListNode {
-    public int label;
-    public RandomListNode next = null;
-    public RandomListNode random = null;
-
-    public RandomListNode(int label) {
-        this.label = label;
-    }
+class RandomListNode(@JvmField var label: Int) {
+    @JvmField
+    var next: RandomListNode? = null
+    @JvmField
+    var random: RandomListNode? = null
 }

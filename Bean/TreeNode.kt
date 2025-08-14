@@ -1,18 +1,15 @@
-package Bean;
+package Bean
 
-public class TreeNode {
-    //    public char val;
-//    public TreeNode left;
-//    public TreeNode right;
-//
-//    public TreeNode(char x) {
-//        val = x;
-//    }
-    public int val;
-    public TreeNode left;
-    public TreeNode right;
-
-    public TreeNode(int x) {
-        val = x;
-    }
+class TreeNode(//    public char val;
+        //    public TreeNode left;
+        //    public TreeNode right;
+        //
+        //    public TreeNode(char x) {
+        //        val = x;
+        //    }
+        @kotlin.jvm.JvmField var `val`: Int) {
+    @kotlin.jvm.JvmField
+    var left: TreeNode? = null
+    @kotlin.jvm.JvmField
+    var right: TreeNode? = null
 }
