@@ -17,7 +17,7 @@ public class sortClassTest {
 
     @Test
     public void sortTest() throws Exception {
-        int[] test = new int[]{80, 19, 4,4,4 ,3, 5, 999};
+        int[] test = new int[]{80, 19, 4,4,4 ,3, 5, 99};
         mSortClass.insertSort(test);
         System.out.println(Arrays.toString(test));
     }
