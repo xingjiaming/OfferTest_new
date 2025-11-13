@@ -43,4 +43,37 @@ class LiKou {
             }
         }
     }
+
+    @Test
+    @Throws(Exception::class)
+    fun longestConsecutive() {
+        val input: IntArray = arrayOf(0, 0, -1).toIntArray()
+        println(mOffer?.longestConsecutive(input))
+    }
+
+    @Test
+    @Throws(Exception::class)
+    fun moveZeroes() {
+        val input: IntArray = arrayOf(0, 0, -1).toIntArray()
+        mOffer?.moveZeroes(input)
+        input.forEach {
+            println(it)
+        }
+    }
+
+    @Test
+    @Throws(Exception::class)
+    fun maxArea() {
+        val intArray = intArrayOf(1, 8, 6, 2, 5, 4, 8, 3, 7)
+        println(mOffer?.maxArea(intArray))
+    }
+
+    @Test
+    @Throws(Exception::class)
+    fun threeSum() {
+        val intArray = intArrayOf(-1, 0, 1, 2, -1, -4)
+        mOffer?.threeSum(intArray)?.forEach {
+            Utils.printListString(it)
+        }
+    }
 }
